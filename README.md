@@ -1,12 +1,84 @@
-# React + Vite
+# 🌤️ Weather Now
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple weather app built with **React** that shows the current weather of any city using the **Open-Meteo API**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+* Search weather by city name
+* Displays temperature, humidity, wind speed, precipitation, and condition (☀️, 🌧️, ❄️, etc.)
+* Fully responsive and clean  CSS
+* Loading and error handling (invalid city or API issues)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+* React (Functional Components + Hooks)
+* Tailwind CSS
+* Open-Meteo API (Weather + Geocoding)
+* Font Awesome for icons
+
+---
+
+## ⚡ Getting Started
+
+1. Clone the repo
+
+```bash
+git clone git remote add origin https://github.com/ShameemAnsari3/weather-app.git
+```
+
+2. Install dependencies
+
+```bash
+npm install
+```
+
+3. Start the development server
+
+```bash
+npm start
+```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
+
+---
+
+## 📁 Folder Structure
+
+```
+weather-app/
+├── node_modules/
+├── public/
+│   └── index.html
+├── src/
+│   ├── App.jsx        # Main React component with Tailwind CSS
+│   ├── index.jsx      # ReactDOM rendering
+│   └── index.css      # Tailwind imports
+├── package.json
+└── README.md
+```
+
+---
+
+## 📡 API References
+
+* **Open-Meteo Weather API**: [https://open-meteo.com/](https://open-meteo.com/)
+* **Open-Meteo Geocoding API**: [https://open-meteo.com/en/docs/geocoding-api](https://open-meteo.com/en/docs/geocoding-api)
+
+---
+
+## ✍️ Author
+
+**Shameem Ansari**– Frontend Web Developer
+Email: [raj378088@gmail.com](mailto:raj378088@gmail.com)
+
+---
+
+## 🖌️ Notes
+
+* All styling uses CSS .
+* Fully mobile responsive.
+* \*You can easily customize colors, spacing, and typography \*
