@@ -54,9 +54,9 @@ weather-app/
 ├── public/
 │   └── index.html
 ├── src/
-│   ├── App.jsx        # Main React component with Tailwind CSS
+│   ├── App.jsx        # Main React component with CSS
 │   ├── index.jsx      # ReactDOM rendering
-│   └── index.css      # Tailwind imports
+│   └── index.css      
 ├── package.json
 └── README.md
 ```
@@ -72,7 +72,7 @@ weather-app/
 
 ## ✍️ Author
 
-**Shameem Ansari**– Frontend Web Developer
+Shameem Ansari – Frontend Web Developer
 Email: [raj378088@gmail.com](mailto:raj378088@gmail.com)
 
 ---
